@@ -30,7 +30,11 @@ body {
   header div i {
     font-size: 40px;
   }
-
+  /********About********/
+  .about {
+    text-align: center;
+    background-color: white;
+  }
   /***********Index Page*************/
   .main section,
   body .about {
@@ -79,7 +83,7 @@ body {
     text-align: center;
     margin: 10px 4px;
   }
-  s .form label {
+  .form label {
     text-align: left;
   }
   .form h1,
@@ -149,6 +153,9 @@ body {
     width: 100%;
     list-style-type: none;
     justify-content: space-around;
+  }
+  body header {
+    background-color: white;
   }
   /************** index *****************/
   section {
