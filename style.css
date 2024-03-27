@@ -5,6 +5,11 @@ body {
   height: 100%;
   margin: 0;
 }
+
+nav ul li a:hover {
+  background-color: bisque;
+}
+
 /*********** Media *************/
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -214,6 +219,34 @@ body {
     height: 40px;
     width: 400px;
   }
+  /*********Admin***********/
+  .admin main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+  }
+  .admin ul {
+    list-style-type: none;
+    background-color: white;
+    display: flex;
+  }
+  .admin main ul i {
+    font-size: 1.4em;
+  }
+  /***********Question************/
+  .question main article h1 {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  .question main article h2 {
+    background-color: white;
+    text-align: center;
+  }
+  .question main {
+    margin: 0px 10px;
+  }
+
   /*********** footer **************/
   footer {
     text-align: center;
